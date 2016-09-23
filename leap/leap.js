@@ -1,6 +1,6 @@
 var Year = function(input) {
 	this.inputYear = input
-};
+}
 
 Year.prototype.isLeap = function(input){
 	if (!(this.inputYear % 4)){
