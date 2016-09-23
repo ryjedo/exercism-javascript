@@ -7,13 +7,8 @@ var HelloWorld = function() {};
 
 HelloWorld.prototype.hello = function(input) {
 
-	var name = ''
-
-	if (input === '') {
-		name = 'world'
-	} else {
-		name = input
-	}
+	var name = 'world'
+	if (!(input === '')) {name = input}
 
 	return "Hello, " + name + "!"
 
